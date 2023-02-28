@@ -11,8 +11,13 @@
 
 
 ## About The Project
-
-### Netlify Link :  [https://dmcbookingapp.netlify.app/](https://dmcbookingapp.netlify.app/)
+- LOGIN: username: enesdmc , password: enesdmc  
+- My project has a homepage where posts are listed.
+- When we go to the detail page of the post, we can see the post and the comments of the post.
+- On this page you can update, delete and comment on the post
+- if the user is not logged in they will not be able to update the post and will be redirected to the login page
+- We can create a new post whenever we want from the new post tab.
+- When we click the update and comment buttons, the windows open and close.
 
 
 
