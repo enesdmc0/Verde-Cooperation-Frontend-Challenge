@@ -80,7 +80,7 @@
 - [ ✉️ enesdmcc@gmail.com]()
 - Linkedin : [https://www.linkedin.com/in/enesdemirci1](https://www.linkedin.com/in/enesdemirci1)
 
-- Project Link: [https://github.com/enesdmc0/MERN-BookingApp](https://github.com/enesdmc0/MERN-BookingApp)
+- Project Link: [https://github.com/enesdmc0/Verde-Cooperation-Frontend-Challenge/](https://github.com/enesdmc0/Verde-Cooperation-Frontend-Challenge/)
 
   
 
