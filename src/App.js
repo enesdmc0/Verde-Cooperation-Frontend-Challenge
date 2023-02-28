@@ -3,13 +3,17 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import Post from './pages/Post';
 import NewPost from './pages/NewPost';
+import PageContainer from './components/PageContainer';
+import Login from './pages/Login';
 const App = () => {
   const Layout = () => {
     return (
-        <div>
-          <Header/>
-          <Outlet/>
-        </div>
+        <>
+          <PageContainer>
+              <Header/>
+              <Outlet/>
+          </PageContainer>
+        </>
     )
   }
   const router = createBrowserRouter([
@@ -30,6 +34,10 @@ const App = () => {
                   element: <NewPost/>
               }
           ],
+      },
+      {
+          path: "/login",
+          element: <Login />,
       },
   ])
     return <RouterProvider router={router}/>

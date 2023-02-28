@@ -1,3 +1,184 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    @apply m-0 p-0 box-border
+}
+body {
+    @apply max-w-full min-h-screen bg-gray-200
+}
+
+.iconButton {
+    @apply flex items-center border px-3 py-1 gap-2 font-bold text-white rounded
+}
+
+.globalInput {
+    @apply border outline-none rounded px-3 py-1
+}
+.arrow {
+    @apply absolute top-8 left-10 w-32 flex items-center gap-1 bg-gray-200 rounded-full border border-gray-400 px-2 cursor-pointer hover:bg-gray-300
+}
+.arrowIcon {
+    @apply w-8 h-8 text-gray-400
+}
+.arrowText {
+    @apply font-bold text-gray-600
+}
+
+
+/* Home Page */
+.home {
+    @apply border bg-white flex justify-evenly gap-y-5 flex-wrap py-5
+}
+
+/* Login Page */
+.login {
+    @apply flex flex-col  items-center justify-center h-screen
+}
+.loginForm {
+    @apply flex bg-white border border-black w-96 h-96 flex-col items-center justify-around gap-5 py-3
+}
+
+/* NewPost Page */
+.newPost {
+    @apply relative border border-white flex items-center justify-center bg-white flex-col
+}
+
+.newPostText {
+    @apply font-bold text-xl mt-3
+}
+.newPostForm {
+    @apply flex flex-col items-center justify-center gap-5 py-3
+}
+.newPostTextarea {
+    @apply border outline-none p-3 rounded
+}
+.newPostButtons {
+    @apply flex gap-5
+}
+
+/* Post Page */
+.post {
+    @apply flex bg-white
+}
+.postLeft {
+    @apply border flex-1
+}
+.arrowContainer {
+    @apply relative flex mx-10 mt-10 items-center justify-between
+}
+.postRight {
+    @apply border flex-1
+}
+.postDetail {
+    @apply flex flex-col h-full  w-full p-8 pt-24 gap-3
+}
+.postTitle {
+    @apply font-bold text-xl capitalize
+}
+.postBody {
+    @apply text-gray-600
+}
+.postButtons {
+    @apply flex items-center justify-end m-5 gap-3
+}
+
+/* AddComment Component */
+.addComment {
+    @apply border rounded bg-gray-100 flex items-center justify-center gap-2 flex-col
+}
+.addCommentText {
+    @apply font-bold text-xl text-gray-800 mt-5
+}
+.addCommentForm {
+    @apply flex flex-col items-center justify-center gap-5 py-3
+}
+.addCommentTextarea {
+    @apply border outline-none p-3 rounded
+}
+
+/* Comments Component */
+.comments {
+    @apply m-5 border-b pb-3
+}
+.commentsContainer {
+    @apply flex items-center justify-between
+}
+.commentsName {
+    @apply font-bold text-xl capitalize
+}
+.commentsEmail {
+    @apply text-gray-600 text-sm lowercase
+}
+.commentsBody {
+    @apply text-gray-800
+}
+
+/* Header Component */
+.header {
+    @apply border flex items-center justify-between my-5 h-24 bg-white
+}
+.headerLeft {
+    @apply flex items-center gap-5 ml-5
+}
+.headerRight {
+    @apply flex mr-5 gap-8 items-center
+}
+.headerLogo {
+    @apply text-blue-800 w-10 h-10
+}
+.headerText {
+    @apply font-bold text-xl
+}
+.headerCounter {
+    @apply relative
+}
+.counterText {
+    @apply font-bold
+}
+.counterLength {
+    @apply absolute bottom-4 left-7 text-xs border rounded-full p-1 bg-green-200 font-bold
+}
+.headerRightIcon {
+    @apply w-6 h-6
+}
+.headerImg {
+    @apply w-10 h-10 rounded-full
+}
+
+/* PageContainer Component */
+.pageContainer {
+    @apply w-90 m-auto border pb-5
+}
+
+/* Posts Component */
+.posts {
+    @apply h-72 w-30
+}
+.postsContainer {
+    @apply flex flex-col h-full  w-full p-5 gap-3
+}
+.postsTitle {
+    @apply font-bold text-xl capitalize
+}
+.postsBody {
+    @apply text-gray-600
+}
+
+/* Updated Component */
+.updated {
+    @apply border rounded bg-gray-100 flex items-center justify-center gap-2 flex-col
+}
+.updatedText {
+    @apply font-bold text-xl text-gray-800 mt-5
+}
+.updatedForm {
+    @apply flex flex-col items-center justify-center gap-5 py-3
+}
+.updatedTextarea {
+    @apply border outline-none p-3 rounded
+}
+.updatedButtons {
+    @apply flex gap-5
+}
